@@ -1,10 +1,10 @@
 {
-    "id": "555",
-    "username": "Boarder",
-    "firstName": "Sergio",
-    "lastName": "Bario",
-    "email": "google@google.com",
-    "password": ["pass", "passpasss"],
-    "phone": "phone",
-    "userStatus": 1
-  }
+  "id": "555",
+  "username": "Boarder",
+  "firstName": "Sergio",
+  "lastName": "Bario",
+  "email": "google@google.com",
+  "password": ["pass", "passpasss"],
+  "phone": "phone",
+  "userStatus": 1
+}

@@ -17,6 +17,7 @@ describe("Api tests", () => {
         expect(response.body.message).to.eql("555");
       }
     );
+    cy.deleteUser(username);
   });
 
   it("Should update pass", () => {
@@ -26,6 +27,8 @@ describe("Api tests", () => {
         expect(response.status).to.eq(200);
       }
     );
+    cy.checkPassword().then((response) => {expect(response.body.password).to.eql(password[1])});
+    cy.deleteUser(username);
   });
 
   it("Should delete user", () => {
